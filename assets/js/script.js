@@ -2,7 +2,7 @@ const displayGifs = () => {
     const giphyKey = "jeNtNzOLOIjvgsW8XsqubMLndTig1AXs";
 
     let queryURL = "https://api.giphy.com/v1/gifs/search?q=pandas&api_key=" + giphyKey;
-    let gifNum = Math.floor(Math.random() * 15);
+    let gifNum = Math.floor(Math.random() * 49);
 
     $.ajax({
         url: queryURL,
